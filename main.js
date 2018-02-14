@@ -7,7 +7,7 @@ var PORT = args[0];
 var id = Math.floor(Math.random()*1000);
 app.get('/', function(req, res) 
 {
-	res.send("Hi From "+id);
+	res.send("Hello World!");
 });
 
 var server = app.listen(PORT, function () {
